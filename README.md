@@ -41,6 +41,7 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
    ![IDistribution of Revenue](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Revenue.png)
 
 - Acquisiton Cost Across Channels
+  
    ![Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Customer%20Acquisition%20Cost%20by%20Channels.png)
 
 - Revenue Distribution Across Channels
