@@ -50,6 +50,9 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
 - Return of Investments by Channels
    ![ROI Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/ROI%20by%20Channels.png)
   
+- Revenue percentages across Channels
+  ![Revenue Percentages Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Total%20Percentage%20Revenue%20by%20Channels.png)
+  
 1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
 2. Revenue distribution is unevenly, with some channels generating very high returns.
 3. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
