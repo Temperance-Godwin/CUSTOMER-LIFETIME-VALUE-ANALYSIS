@@ -58,7 +58,7 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
 1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
 2. Revenue distribution is unevenly, with some channels generating very high returns.
 3. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
-4. Channels like Email Marketing showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
+4. Channels like Social media showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
 
 
 ## RECOMMENDATIONS
@@ -86,10 +86,9 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
 
 ## LIMITATIONS
 While this analysis provides useful insights, there are several limitations to consider:
-1. **Data is Limited to Few Continents**: Retention behavior may differ significantly in other markets due to cultural, economic, or seasonal factors.
-2. **Temporal Range is Not Fully Defined**: The dataset likely covers a single year. A longer time horizon would provide a more complete view of long-term retention and customer lifetime value.
-3. **Lack of Channel Attribution**: The dataset does not include information about how customers were acquired (e.g., paid ads, organic search, referrals). Without this, we cannot determine which marketing channels produce higher-retaining customers.
-4. **Revenue Retention is Not Analyzed**: The focus was on user retention. Revenue retention would provide a more nuanced understanding of customer value and help distinguish between low- and high-spending retained users.
-5.**No Behavioral or Demographic Segmentation**: All users are treated equally in the analysis. Further segmentation by age, gender, product type, or user behavior could uncover more granular insights.
-6. **Returns and Cancellations Excluded but Not Analyzed**: While returns were excluded for data quality, analyzing their frequency and causes could reveal issues affecting customer satisfaction and long-term retention.
-7. **No Real-Time or Automated Monitoring**: This is a static analysis. For production use, this should be built into a real-time dashboard or periodic reporting system to monitor cohort performance continuously.
+
+1. **Lack of Temporal Data:** The dataset does not contain timestamps or transaction dates which makes it impossible to conduct time-based analysis such as: Cohort analysis, Customer retention trends, Purchase frequency or recency. A CLV estimate requires data over time to understand how long customers remain active and how often they generate revenue.
+
+2. **Absence of Customer-Level Purchase History:** The dataset appears to be aggregated at the customer or channel level without detailed purchase logs.  We cannot track repeat purchases or order frequency, calculate average order value per customer,and  apply behavioral or probabilistic CLV models. The current analysis relies only on summary revenue figures, reducing the predictive power of insights.
+
+3. **No Cost Breakdown or Profit Margins:** The dataset includes acquisition costs but not product/service costs or profit margins. We can’t determine true profitability per customer or channel, Gross or net CLV. The analysis may overestimate the value of certain channels by focusing solely on revenue.
