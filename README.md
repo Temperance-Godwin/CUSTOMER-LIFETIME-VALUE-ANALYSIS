@@ -41,10 +41,10 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
    ![IDistribution of Revenue](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Revenue.png)
 
 - Acquisiton Cost Across Channels
-  ![Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Customer%20Acquisition%20Cost%20by%20Channels.png)
+   ![Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Customer%20Acquisition%20Cost%20by%20Channels.png)
 
-- Revenue dISTRIBUTION Across Channels
-  ![Revenue Distribution Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Total%20Percentage%20Revenue%20by%20Channels.png)
+- Revenue Distribution Across Channels
+   ![Revenue Distribution Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Total%20Percentage%20Revenue%20by%20Channels.png)
 
 1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
 2. Revenue distribution is unevenly, with some channels generating very high returns.
