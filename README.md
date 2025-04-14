@@ -35,9 +35,11 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
 
 ## INSIGHTS
 - Distribution Acquisition Cost
+
   ![IDistribution Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20of%20Acquisition%20Cost.png)
 
 - Revenue Distribution
+
    ![IDistribution of Revenue](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20of%20Revenue.png)
 
 - Conversion Rate and Costs Across Channels
@@ -45,9 +47,11 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
    ![Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Conversion%20Rate%20and%20Cost%20by%20Channels.png)
 
 - Return of Investments by Channels
+  
    ![ROI Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/ROI%20by%20Channels.png)
 
-- Revenue percentages across Channels
+- Revenue Percentages Across Channels
+  
   ![Revenue Percentages Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Total%20Percentage%20Revenue%20by%20Channels.png)
 
   
