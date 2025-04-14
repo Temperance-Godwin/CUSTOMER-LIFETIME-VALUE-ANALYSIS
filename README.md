@@ -35,26 +35,21 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
 
 ## INSIGHTS
 - Distribution Acquisition Cost
-  ![IDistribution Acquisition Cost]( https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Acquisition%20Cost.png)
+  ![IDistribution Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20of%20Acquisition%20Cost.png)
 
 - Revenue Distribution
-   ![IDistribution of Revenue](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Revenue.png)
+   ![IDistribution of Revenue](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20of%20Revenue.png)
 
-- Acquisiton Cost Across Channels
+- Conversion Rate and Costs Across Channels
   
-   ![Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Customer%20Acquisition%20Cost%20by%20Channels.png)
-
-- Revenue Distribution Across Channels
-   ![Revenue Distribution Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Total%20Percentage%20Revenue%20by%20Channels.png)
+   ![Acquisition Cost](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Conversion%20Rate%20and%20Cost%20by%20Channels.png)
 
 - Return of Investments by Channels
    ![ROI Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/ROI%20by%20Channels.png)
-  
+
 - Revenue percentages across Channels
   ![Revenue Percentages Across Channels](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Total%20Percentage%20Revenue%20by%20Channels.png)
 
-- Conversion Rates Across Channels
-  ![Conversion Rates](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Conversion%20Rates%20by%20Channels.png)
   
 1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
 2. Revenue distribution is unevenly, with some channels generating very high returns.
