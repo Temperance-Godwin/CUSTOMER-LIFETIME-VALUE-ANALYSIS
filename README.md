@@ -31,7 +31,7 @@ UCI Machine Learning Repository. View data [here](https://archive.ics.uci.edu/da
 - Conversion rates and profitability of each channel were analyzed.
 - Channels were ranked based on cost efficiency and revenue generation.
 - 
-View my code [here](https://github.com/Temperance-Godwin/COHORT-ANALYSIS/blob/main/Cohort%20Analysis.ipynb)
+View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/customer%20lifetime%20value%20analysis.ipynb)
 
 ## INSIGHTS
 1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
