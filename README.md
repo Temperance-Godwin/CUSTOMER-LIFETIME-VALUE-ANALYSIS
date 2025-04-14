@@ -30,18 +30,21 @@ UCI Machine Learning Repository. View data [here](https://archive.ics.uci.edu/da
 4. Channel Effectiveness Analysis:
 - Conversion rates and profitability of each channel were analyzed.
 - Channels were ranked based on cost efficiency and revenue generation.
-- 
+
 View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/customer%20lifetime%20value%20analysis.ipynb)
 
 ## INSIGHTS
-1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
+- Distribution Acquisition Cost
   ![IDistribution Acquisition Cost]( https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Acquisition%20Cost.png)
 
-3. Revenue distribution is unevenly, with some channels generating very high returns.
+- Revenue Distribution
+   ![IDistribution of Revenue](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Revenue.png)
 
-4. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
 
-5. Channels like Email Marketing showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
+1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
+2. Revenue distribution is unevenly, with some channels generating very high returns.
+3. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
+4. Channels like Email Marketing showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
 
 
 ## RECOMMENDATIONS
