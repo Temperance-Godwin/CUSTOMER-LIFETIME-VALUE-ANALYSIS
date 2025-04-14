@@ -92,3 +92,7 @@ While this analysis provides useful insights, there are several limitations to c
 2. **Absence of Customer-Level Purchase History:** The dataset appears to be aggregated at the customer or channel level without detailed purchase logs.  We cannot track repeat purchases or order frequency, calculate average order value per customer,and  apply behavioral or probabilistic CLV models. The current analysis relies only on summary revenue figures, reducing the predictive power of insights.
 
 3. **No Cost Breakdown or Profit Margins:** The dataset includes acquisition costs but not product/service costs or profit margins. We can’t determine true profitability per customer or channel, Gross or net CLV. The analysis may overestimate the value of certain channels by focusing solely on revenue.
+
+![Thank you](https://github.com/Temperance-Godwin/Forbes-world-billionaires-2022/assets/156975460/f6563ba6-1ad6-4d34-a3f3-8e7fbdf654df)
+
+## Thank you for following through.
