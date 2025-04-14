@@ -1,6 +1,3 @@
-## CUSTOMER LIFETIME VALUE ANALYSIS
-![Intro_image](https://github.com/Temperance-Godwin/COHORT-ANALYSIS/blob/main/Intro.png)
-
 ## INTRODUCTION.
 Customer Lifetime Value (CLV) is a key metric that helps businesses understand the total worth of a customer over the course of their relationship with the company. This notebook provides an analysis of customer acquisition data to evaluate CLV, identify high-value customer acquisition channels, and make data-driven marketing decisions.
 
