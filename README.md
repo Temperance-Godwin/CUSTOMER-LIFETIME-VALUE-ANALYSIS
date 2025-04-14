@@ -35,12 +35,13 @@ View my code [here](https://github.com/Temperance-Godwin/COHORT-ANALYSIS/blob/ma
 
 ## INSIGHTS
 1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
+  ![IDistribution Acquisition Cost]( https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE-ANALYSIS/blob/main/Distribution%20Of%20Acquisition%20Cost.png)
 
-2. Revenue distribution is unevenly, with some channels generating very high returns.
+3. Revenue distribution is unevenly, with some channels generating very high returns.
 
-3. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
+4. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
 
-4. Channels like Email Marketing showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
+5. Channels like Email Marketing showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
 
 
 ## RECOMMENDATIONS
