@@ -7,9 +7,10 @@ Customer Lifetime Value (CLV) is a key metric that helps businesses understand t
 ## OBJECTIVE
 The main goals of this analysis are:
 1. To analyze customer acquisition cost and revenue distributions.
-2. To compare acquisition costs across different marketing channels.
+2. To compare acquisition costs across different channels.
 3. To identify the most and least effective acquisition channels in terms of conversion and revenue generation.
 4. To derive actionable insights to optimize marketing investments.
+5. To calculate the ROI for each channel.
 
 ## DATA SOURCE
 UCI Machine Learning Repository. View data [here](https://archive.ics.uci.edu/dataset/352/online+retail)
