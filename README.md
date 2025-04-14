@@ -2,103 +2,69 @@
 ![Intro_image](https://github.com/Temperance-Godwin/COHORT-ANALYSIS/blob/main/Intro.png)
 
 ## INTRODUCTION.
-In the competitive landscape of online retail, understanding customer behavior is crucial for driving growth, increasing retention, and improving marketing strategies. Cohort analysis offers a powerful lens through which businesses can track and compare groups of customers (cohorts) based on shared characteristics—most commonly the time of their first purchase.
+Customer Lifetime Value (CLV) is a key metric that helps businesses understand the total worth of a customer over the course of their relationship with the company. This notebook provides an analysis of customer acquisition data to evaluate CLV, identify high-value customer acquisition channels, and make data-driven marketing decisions.
 
 ## OBJECTIVE
-This project focuses on analyzing customer purchasing behavior over time by performing a cohort analysis using transactional data from an online retail store. The goal is to understand customer retention trends, identify churn patterns, and derive actionable insights to improve customer engagement and loyalty.
+The main goals of this analysis are:
+1. To analyze customer acquisition cost and revenue distributions.
+2. To compare acquisition costs across different marketing channels.
+3. To identify the most and least effective acquisition channels in terms of conversion and revenue generation.
+4. To derive actionable insights to optimize marketing investments.
 
 ## DATA SOURCE
 UCI Machine Learning Repository. View data [here](https://archive.ics.uci.edu/dataset/352/online+retail)
 
 ## LIBRARY USED
-1. Pandas - Data Wrangling
-2. Matplotlib - Data Visualization
-3. Seaborn- Data Visualization
+1. Pandas- Data loading, manipulation, and analysis (e.g., reading CSV, grouping, calculating metrics)
+2. Plotly.graph_objs- Creating custom interactive visualizations
+3. Plotly.express- Simplifying high-level interface for interactive visualizations like histograms and bar plots
+4. Plotly.io- Configuring default themes/styles for Plotly visualizations
 
 ## METHODOLOGY
-1. Data Loading & Cleaning
-- Loaded data and removed missing CustomerIDs.
-2. Cohort Mapping
-- Assigned each customer to a CohortMonth.
-- Calculated CohortIndex as the number of months since first purchase.
-3. Retention Matrix
-- Created a pivot table showing the number of retained customers over time per cohort.
-- Normalized into percentages for clear retention visualization.
-4. Visualization
-- Generated a **heatmap** of monthly retention percentages using 'seaborn'.
-
+1. Data Loading and Inspection:
+- The dataset (customer_acquisition_data.csv) was loaded and explored to understand its structure and types.
+2. Descriptive Statistics and Visualization:
+- Histograms were used to visualize the distribution of acquisition costs and revenue.
+3. Channel-wise comparison was done to identify high- and low-performing channels.
+- Grouped summaries helped to find average costs, conversion rates, and total revenue per channel.
+4. Channel Effectiveness Analysis:
+- Conversion rates and profitability of each channel were analyzed.
+- Channels were ranked based on cost efficiency and revenue generation.
+- 
 View my code [here](https://github.com/Temperance-Godwin/COHORT-ANALYSIS/blob/main/Cohort%20Analysis.ipynb)
 
 ## INSIGHTS
+1. Most customers are acquired at relatively low costs. A few channels show significantly higher acquisition costs.
 
-1. There is a significant drop in retention after first purchase. Across nearly all cohorts, Month 0 (first purchase month) shows strong participation. However, in Month 1, there is a sharp drop—often greater than 50%, indicating that a large percentage of customers do not return after their initial transaction. This suggests that the business currently lacks a strong post-purchase engagement strategy or incentives to drive repeat purchases.
+2. Revenue distribution is unevenly, with some channels generating very high returns.
 
-2. Most cohorts show a steep retention curve, where users quickly disengage after their first or second month. This implies a transactional business model with low customer loyalty, and highlights a missed opportunity in cultivating long-term relationships.
+3. Referral and Organic Search channels had the lowest acquisition costs and relatively high revenue, making them the most cost-effective. Paid Ads incurred higher costs with moderate revenue, suggesting potential inefficiency. Social Media had moderate cost but lower revenue, indicating room for optimization.
 
-3. Certain monthly cohorts (e.g., those starting in November or December) demonstrate slightly higher Month 1 and Month 2 retention. This may correlate with holiday promotions, gift shopping behavior, or seasonal campaigns that resonate more strongly with customers.
+4. Channels like Email Marketing showed high conversion rates, even if overall revenue wasn’t the highest. Some channels with high traffic showed poor conversion, indicating targeting issues.
 
-4. Although few customers remain after Month 1, those who do return in Month 2 or 3 tend to remain active longer. This indicates a retention threshold — once customers pass through the early drop-off window, their likelihood of becoming loyal increases.
-
-5. The heatmap visualization confirms that most cohorts have low retention rates across all months. This suggests the issue is systemic, not isolated to a single campaign, product, or season — and will require strategic, cross-functional intervention.
-
-6. There is no visible indication of delayed spikes or growth in user counts in later months, which could indicate word-of-mouth or referral-based return traffic. This implies that customers are not actively referring others, and there's minimal network-driven growth.
 
 ## RECOMMENDATIONS
-1. **Launch cohort-based retention campaigns based on a customer’s stage in their lifecycle (e.g., month 1, month 2, month 3).**
-   
-*How to Do It:*
-- Use marketing automation tools (e.g. HubSpot) to set up lifecycle email sequences.
-- Create triggers such as "7 days after first purchase" or "30 days of inactivity" to send personalized reminders, discounts, or product suggestions.
-- Include dynamic content in emails based on past purchase history or categories browsed.
+1. **Increase investment in Referral and Organic Search channels, as they generate high revenue with low acquisition cost.**
 
-2. **Introduce a loyalty program to reward returning cutomers**
+*How to do it:*
+- Offer referral incentives (e.g., discounts or cashback). Use tools like ReferralCandy or Referral Rock to automate tracking.
 
-*How to Do It*:
-- Implement a points-based system where customers earn rewards for each purchase.
-- Use custom-built solutions to integrate loyalty tracking.
-- Offer milestones such as “Get 10% off your third order” or “Earn a free gift on your fifth purchase.”
-- Track performance by comparing retention rates pre- and post-loyalty program.
+- Improve keyword targeting in blogs, landing pages, and product descriptions. Create high-value content to drive inbound traffic and optimize website performance (load time, mobile friendliness, metadata).
 
-3. **Encourage the second purchase with first-time buyer offers**
+2. Reduce or reallocate budget from underperforming channels like Paid Ads or Social Media.**
 
-*How to Do It:*
-- After the first purchase, trigger a limited-time discount (e.g., 15% off if they return within 10 days).
-- Include an offer inside the package delivery (e.g., a coupon code or QR to redeem bonus on next order).
+*How to do it:*
+- Use campaign data (CTR, CPC, ROAS) to identify low-efficiency ads. Pause or A/B test campaigns with high cost and low conversions.
 
-4. **Identify and prioritize high-retention cohorts**
-   
-*How to Do It:*
-- Use the cohort heatmap to find months with above-average second or third-month retention.
-- Look into external factors during those periods (promotions, holidays, campaigns).
-- Replicate effective tactics from high-performing months (e.g., offer bundles, timing of promotions).
+- Shift ad spend toward channels with proven performance and adjust audience targeting based on customer personas or lookalike audiences.
 
-5. **Segment customers by value for personalized treatment**:
+3. **Increase conversion rates on channels with decent reach but low ROI (e.g., Email Marketing or Social Media).**
 
-*How to Do It*
-- Use RFM (Recency, Frequency, Monetary) segmentation to classify customers.
-- Send premium offers, early access, or VIP experiences to top-tier users.
-- Send reactivation emails with low-cost offers or surveys to lower-tier or inactive users.
+*How to do it:*
 
-6. **Add product-based retention analysis by understanding which products or categories lead to higher customer retention.**
-   
-*How to Do It*:
-- Segment your cohort analysis by top-selling product categories.
-- Compare retention heatmaps across these categories to identify retention-driving products.
-- Promote products that tend to generate returning customers more prominently on your homepage and ads.
+- Test different CTAs, layouts, and headlines using tools like Unbounce or Google Optimize.
 
-7. **Monitor revenue retention, not just user count**
-   
-*How to Do It*:
-- Modify the cohort analysis to track revenue (TotalSum) per cohort across months.
-- Normalize revenue by cohort size to calculate average revenue retained per user over time.
-- Use this to focus resources on cohorts that are both large and high-value.
-
-8. **Automate retention tracking with dashboards**
-   
-*How to Do It*:
-- Use tools like Power BI, Tableau, or Python Dash to build real-time retention dashboards.
-- Schedule weekly or monthly data pulls and refreshes.
-- Include visual alerts or trend indicators when certain cohorts fall below expected retention thresholds.
+- Use segmentation and behavioral triggers to send relevant, timely emails and re-engage users who clicked but didn’t convert using Google Ads or Meta retargeting.
 
 ## LIMITATIONS
 While this analysis provides useful insights, there are several limitations to consider:
