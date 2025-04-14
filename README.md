@@ -13,7 +13,7 @@ The main goals of this analysis are:
 5. To calculate the ROI for each channel.
 
 ## DATA SOURCE
-UCI Machine Learning Repository. View data [here](https://archive.ics.uci.edu/dataset/352/online+retail)
+Kaggle. View data [here](https://www.kaggle.com/datasets/amirmotefaker/customer-acquisition-data)
 
 ## LIBRARY USED
 1. Pandas- Data loading, manipulation, and analysis (e.g., reading CSV, grouping, calculating metrics)
