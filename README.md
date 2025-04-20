@@ -60,27 +60,17 @@ View my code [here](https://github.com/Temperance-Godwin/CUSTOMER-LIFETIME-VALUE
 
 
 ## RECOMMENDATIONS
-1. **Increase investment in Referral and Organic Search channels, as they generate high revenue with low acquisition cost.**
+1. **Increase investment in Referral and Organic Search channels, as they generate high revenue with low acquisition cost by** 
+   
+- Offering referral incentives (e.g., discounts or cashback). Use tools like ReferralCandy or Referral Rock to automate tracking and improving keyword targeting in blogs, landing pages, and product descriptions. Create high-value content to drive inbound traffic and optimize website performance (load time, mobile friendliness, metadata).
 
-*How to do it:*
-- Offer referral incentives (e.g., discounts or cashback). Use tools like ReferralCandy or Referral Rock to automate tracking.
+2. **Reduce or reallocate budget from underperforming channels like Paid Ads or Social Media by:**
 
-- Improve keyword targeting in blogs, landing pages, and product descriptions. Create high-value content to drive inbound traffic and optimize website performance (load time, mobile friendliness, metadata).
+- Usingcampaign data (CTR, CPC, ROAS) to identify low-efficiency ads. Pause or A/B test campaigns with high cost and low conversions and shifting ad spend toward channels with proven performance and adjust audience targeting based on customer personas or lookalike audiences.
 
-2. Reduce or reallocate budget from underperforming channels like Paid Ads or Social Media.**
+3. **Increase conversion rates on channels with decent reach but low ROI (e.g., Email Marketing or Social Media) by:**
 
-*How to do it:*
-- Use campaign data (CTR, CPC, ROAS) to identify low-efficiency ads. Pause or A/B test campaigns with high cost and low conversions.
-
-- Shift ad spend toward channels with proven performance and adjust audience targeting based on customer personas or lookalike audiences.
-
-3. **Increase conversion rates on channels with decent reach but low ROI (e.g., Email Marketing or Social Media).**
-
-*How to do it:*
-
-- Test different CTAs, layouts, and headlines using tools like Unbounce or Google Optimize.
-
-- Use segmentation and behavioral triggers to send relevant, timely emails and re-engage users who clicked but didn’t convert using Google Ads or Meta retargeting.
+- Testing different CTAs, layouts, and headlines using tools like Unbounce or Google Optimize and using segmentation and behavioral triggers to send relevant, timely emails and re-engage users who clicked but didn’t convert using Google Ads or Meta retargeting.
 
 ## LIMITATIONS
 While this analysis provides useful insights, there are several limitations to consider:
